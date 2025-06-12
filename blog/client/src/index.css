@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom global styles here if needed,
+   but prefer using Tailwind utility classes in components. */
+
+/* Example: Custom button style if not covered by Tailwind */
+/* .btn-custom {
+  @apply bg-blue-500 text-white py-2 px-4 rounded;
+} */

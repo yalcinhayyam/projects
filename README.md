@@ -15,8 +15,11 @@ An Android application for managing a personal library of books.
 - Basic CRUD operations included
 
 🔗 [Project README](./mobile-collection/Library/README.md)
-<!-- 
 ---
+
+### 🧪 [`blog`](./blog)
+An Apollo Server based simple blog application
+<!-- 
 
 ### 🧪 [`another/foo`](./another/foo)
 
