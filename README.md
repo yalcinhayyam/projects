@@ -34,7 +34,7 @@ This is simple milk collection tracker app for low level technology knowledge cu
 
 🌐 [Website](https://admirable-narwhal-3be10a.netlify.app)
 
-
+---
 ### 🏆 [`League Draw Challenge - .NET`](https://github.com/yalcinhayyam/Adesso.Challange)
 A tournament scheduling application built with .NET  
 🔗 [Project README](https://github.com/yalcinhayyam/Adesso.Challange/blob/main/README.md)
