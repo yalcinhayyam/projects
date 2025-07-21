@@ -80,29 +80,6 @@ export const REGISTER = gql`
   }
 `;
 
-export const GET_POSTS = gql`
-  query GetPosts {
-    posts {
-      id
-      title
-      content
-      likesCount
-      createdAt
-      updatedAt
-      likes {
-        id
-        user {
-          id
-          username
-        }
-      }
-      author {
-        id
-        username
-      }
-    }
-  }
-`;
 
 export const GET_POST = gql`
   query GetPost($id: ID!) {
@@ -345,12 +322,3 @@ export const GET_USER_PROFILE = gql`
   }
 `;
 
-export const GET_ME = gql`
-  query GetMe {
-    me {
-      id
-      username
-      email
-    }
-  }
-`;

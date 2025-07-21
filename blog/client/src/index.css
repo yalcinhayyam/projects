@@ -2,10 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-/* You can add custom global styles here if needed,
-   but prefer using Tailwind utility classes in components. */
+@layer base {
+  body {
+    @apply text-gray-800 antialiased;
+  }
 
-/* Example: Custom button style if not covered by Tailwind */
-/* .btn-custom {
-  @apply bg-blue-500 text-white py-2 px-4 rounded;
-} */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+
+  .btn-secondary {
+    @apply border border-gray-300 text-gray-700 hover:bg-gray-50;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 text-white hover:bg-red-600;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none;
+  }
+
+  .card {
+    @apply bg-white rounded-lg border border-gray-200 transition-shadow hover:shadow-sm;
+  }
+
+  .avatar {
+    @apply bg-blue-500 rounded-full flex items-center justify-center text-white;
+  }
+
+  .tag {
+    @apply px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded inline-block;
+  }
+
+  .category-badge {
+    @apply inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+.page-transition {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Add smooth page transitions */
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}

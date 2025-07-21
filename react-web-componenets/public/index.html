@@ -1,0 +1,23 @@
+<div id="root"></div>
+<script>
+  let timerRef = null;
+  window.createTimer = function (timeout) {
+    if (timerRef) return;
+    timerRef = setInterval(() => {
+      const event = new CustomEvent('timerTick', {
+        detail: new Date(),
+      });
+      window.dispatchEvent(event);
+    }, timeout);
+  };
+
+  window.removeTimer = function () {
+    if (timerRef) {
+      clearInterval(timerRef);
+      timerRef = null;
+    }
+  };
+  // stream
+  // validation
+  // weather api example
+</script>
