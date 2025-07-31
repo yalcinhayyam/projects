@@ -1,50 +1,73 @@
+
+
 # 📁 Developer Portfolio
 
 Welcome to my portfolio repository! This is a collection of personal and experimental projects I've worked on to explore mobile development, UI/UX design, and backend fundamentals. Each subfolder contains an individual project with its own purpose and scope.
 
 ---
 
-## 🚀 Projects Overview
+## 🚀 Projects
 
-### 📚 [`mobile-collection/Library`](./mobile-collection/Library)
+### 🧠 [`NoteApp (Angular + Clean Architecture)`](https://github.com/yalcinhayyam/NoteApp)
 
-An Android application for managing a personal library of books.  
-- SQLite database for local storage  
-- RecyclerView for displaying book entries  
-- Follows a clean structure with `User`, `Entity`, and `Book` classes  
-- Basic CRUD operations included
+A robust note-taking application built with Angular, leveraging **MVVM**, **IndexedDB** for offline storage, and **Firebase Firestore** for real-time sync.
+
+* 🔐 Firebase Auth for user authentication
+* 🔁 Offline-first with automatic background sync
+* 🧱 Modular structure: Domain, Data, Presentation layers
+* 🧪 Tested with Jasmine & Karma
+* 💡 Emphasis on reactivity with RxJS and Signals
+
+🔗 [View Project](https://github.com/yalcinhayyam/NoteApp)
+
+---
+
+### 🏆 [`League Draw Challenge - .NET`](https://github.com/yalcinhayyam/Adesso.Challange)
+
+A tournament scheduling web application built with **ASP.NET Core**.
+
+* 🏟️ Generates match schedules dynamically
+* 🧱 Implements clean separation of concerns
+* 🧪 Includes unit tests and solid domain modeling
+* ⚙️ Built with .NET 6, Entity Framework Core
+
+🔗 [View Project](https://github.com/yalcinhayyam/Adesso.Challange)
+
+---
+
+### 📚 [`Library App (Android)`](./mobile-collection/Library)
+
+An Android application to manage a personal book collection.
+
+* 📘 Local storage via **SQLite**
+* 🧩 Features **RecyclerView**, **ViewBinding**
+* 🏗️ Organized around `Entity`, `User`, and `Book` models
+* 🛠️ Includes full CRUD operations
 
 🔗 [Project README](./mobile-collection/Library/README.md)
 
 ---
 
-### 🧪 [`Angular - Note App (Clean Architecture - MVVM)`](https://github.com/yalcinhayyam/NoteApp)
+### ⚛️ [`React Web Components`](#)
 
-🔗 [Project README](https://github.com/yalcinhayyam/NoteApp/blob/main/README.md)
+A small library of reusable React UI components.
 
----
+* 📦 Component-driven development
+* 💅 Styled with Tailwind / CSS Modules
+* 🧪 Includes tests and documentation for each component
 
-### 🧪 [`blog`](./blog)
-An Apollo Server based simple blog application
-
----
-
-### 🧪 Milk Collection Tracker
-This is simple milk collection tracker app for low level technology knowledge customer
-
-🌐 [Website](https://admirable-narwhal-3be10a.netlify.app)
-
----
-### 🏆 [`League Draw Challenge - .NET`](https://github.com/yalcinhayyam/Adesso.Challange)
-A tournament scheduling application built with .NET  
-🔗 [Project README](https://github.com/yalcinhayyam/Adesso.Challange/blob/main/README.md)
+*(Repository or demo link can be added here)*
 
 ---
 
-### 📨 [`Web Push Demo`]()
-Experimental project exploring web push notifications
+### ✍️ [`Blog (Apollo Server)`](./blog)
+
+A minimal blog backend built with **Apollo Server** and **GraphQL**.
+
+* 🗃️ In-memory mock data
+* ⚙️ GraphQL schema-first approach
+* 💡 Good for learning backend fundamentals
 
 ---
 
-### ⚛️ [`React Web Components`]()
-A collection of reusable React components
+> Feel free to explore each project for deeper insights into structure, functionality, and implementation decisions.
