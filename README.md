@@ -1,5 +1,3 @@
-
-
 # 📁 Developer Portfolio
 
 Welcome to my portfolio repository! This is a collection of personal and experimental projects I've worked on to explore mobile development, UI/UX design, and backend fundamentals. Each subfolder contains an individual project with its own purpose and scope.
@@ -48,6 +46,29 @@ An Android application to manage a personal book collection.
 
 ---
 
+### ✍️ [`Blog (Apollo Server)`](./blog)
+
+A minimal blog backend built with **Apollo Server** and **GraphQL**.
+
+* 🗃️ In-memory mock data
+* ⚙️ GraphQL schema-first approach
+* 💡 Good for learning backend fundamentals
+
+---
+
+### 🥛 [`Milk Collection Tracker`](https://admirable-narwhal-3be10a.netlify.app)
+
+A lightweight web app for tracking daily milk collections, designed for users with limited tech literacy.
+
+* 🐄 Simple and intuitive UI
+* 📱 Mobile-friendly responsive design
+* 🧾 Basic record input and total tracking
+* 🚫 No login required – ready to use immediately
+
+🔗 [Live Demo](https://admirable-narwhal-3be10a.netlify.app)
+
+---
+
 ### ⚛️ [`React Web Components`](#)
 
 A small library of reusable React UI components.
@@ -60,14 +81,13 @@ A small library of reusable React UI components.
 
 ---
 
-### ✍️ [`Blog (Apollo Server)`](./blog)
+### 🛒 [`NextCommerce (Next.js)`](#)
 
-A minimal blog backend built with **Apollo Server** and **GraphQL**.
-
-* 🗃️ In-memory mock data
-* ⚙️ GraphQL schema-first approach
-* 💡 Good for learning backend fundamentals
+**Coming soon...**
+A simple e-commerce front-end built using **Next.js**, with a focus on clean layout, SSR, and state management.
 
 ---
 
 > Feel free to explore each project for deeper insights into structure, functionality, and implementation decisions.
+
+---
